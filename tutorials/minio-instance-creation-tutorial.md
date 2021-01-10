@@ -93,32 +93,6 @@ statefulset.apps/minio   4/4     2m8s
 
 ```
 
-### Create MinIO's Headless Service :
-
-```execute
-cat <<'EOF' > MinioService.yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: minio
-  labels:
-    app: minio
-spec:
-  clusterIP: None
-  ports:
-    - port: 9000
-      name: minio
-  selector:
-    app: minio
-EOF
-```
-
-Execute below command to create headless Service
-
-```execute
-kubectl create -f MinioService.yaml -n my-minio-operator
-```
-
 ### Create NodePort Service to access MinIO's Pod 
 
 ```execute
@@ -143,9 +117,21 @@ Execute below command to create NodePort Service
 kubectl create -f MinioNodePortService.yaml -n my-minio-operator
 ```
 
+Output:
 
-Click on below url to access pod :
+```
+service/minio-service created
+```
 
-Click on the <a href="http://##DNS.ip##:30205" target="_blank">http://##DNS.ip##:30205</a> to access MinIO Pod from your browser.
+Access MinIO's dashboard with below url :
+
+Click on http://##DNS.ip##:30205 to access MinIO's dashboard from your browser.
+
+You will see the MinIO's Login page as below :
+
+
+ ![](_images/login-console.PNG)
+
+
 
 

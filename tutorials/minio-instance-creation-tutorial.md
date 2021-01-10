@@ -134,6 +134,7 @@ spec:
     nodePort: 30205
   selector:
     v1beta1.min.io/instance: minio
+ EOF
 ```
 
 Execute below command to create NodePort Service

@@ -1,6 +1,6 @@
 ---
 title: MinIO Operator Installation Verification Tutorial
-description: This tutorial explains how to verify that the MinIO Operator got installed properly in the namespace
+description: This tutorial explains how to verify that the MinIO Operator installed properly in the namespace
 ---
 
 ### Check the MinIO Operator

@@ -41,4 +41,17 @@ Give a name to the storage bucket and just hit enter. Storage bucket will be cre
 
 ![](_images/bucket-created.PNG)
 
+Click on the option provided to the created bucket as shown in the below snapshot.
+
+you will see option :"Edit policy" and "Delete" 
+
+If you want to edit policy click on "Edit policy"
+
+You will see below option :
+
+
+
+
+
+
 

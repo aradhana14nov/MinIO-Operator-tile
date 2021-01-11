@@ -32,7 +32,7 @@ MinIO-Operator brings native MinIO, MCS, and KES support to Kubernetes.
 ### Architecture
 The following diagram describes the architecture of a MinIO deployed into Kubernetes:
 
-!(_images/minio-on-kubernetes.png)
+![](_images/minio-on-kubernetes.PNG)
 
 
 ### Objective of tutorial

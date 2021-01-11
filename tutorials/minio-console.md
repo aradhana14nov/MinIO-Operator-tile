@@ -17,12 +17,12 @@ You will see the MinIO's Login page as below :
 
 - Login to the console using access key and secret key as below :
 
-access key: admin
-secret key: secret@123456
+ access key: admin
+ secret key: secret@123456
 
 ![](_images/login-creds.PNG)
 
-Note: above accesskey and secretkey we have used while creating secret.
+ Note: above accesskey and secretkey we have used while creating secret.
 
 
 - Once logged-in you will see MinIO's console as below:
@@ -78,7 +78,7 @@ Your bucket policy will be added.
 
 Once bucket policy is added you can see the "Remove" button on created Bucket Policy using which we can remove the Bucket Policy.
 
-Also a new column of Bucket Policy is also added if we want to add a new Bucket Policy.
+Also a new column of Bucket Policy is also added.
 
 ![](_images/remove-bucket-policy.PNG)
 
@@ -94,7 +94,9 @@ Step 9: Click on to "Upload file" option as shown in below snapshot.
 
 ![](_images/upload-file.PNG)
 
-Step 10: Browse the file you want to upload in the Bucket.Once file is selected and added it will see "File uploaded Successfully" message.
+Open window to select the file will be opened.
+
+Step 10: Select the file you want to upload in the Bucket.Once file is selected and clicked on "Open",you will see "File uploaded Successfully" message.
 
 ![](_images/upload-file-successful.PNG)
 

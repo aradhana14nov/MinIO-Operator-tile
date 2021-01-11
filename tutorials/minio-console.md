@@ -3,9 +3,10 @@ title: Access MinIO Console
 description: This tutorial explains how to access minios console.
 ---
 
-### Access MinIO's Console
+### Access MinIO's Console 
 
-To login into MinIO's console click on below URL :
+
+- To login into MinIO's console click on below URL :
 
 http://##DNS.ip##:30205 
 
@@ -14,7 +15,17 @@ You will see the MinIO's Login page as below :
 
 ![](_images/login-console.PNG)
 
-Once logged-in into this you will see MinIO's console as below:
+- Login to the console using access key and secret key as below :
+
+access key: admin
+secret key: secret@123456
+
+![](_images/login-creds.PNG)
+
+Note: above accesskey and secretkey we have used while creating secret.
+
+
+- Once logged-in you will see MinIO's console as below:
 
 
 ![](_images/logged-in-console.PNG)
@@ -22,11 +33,10 @@ Once logged-in into this you will see MinIO's console as below:
 The MinIO Console provides a graphical user interface (GUI) for interacting with MinIO Tenants.
 Administrators of MinIO Tenants can perform a variety of tasks through the Console, including user creation, policy configuration, and bucket replication. 
 
-### Create Storage Bucket and upload files into bucket
 
+### Create Storage Bucket 
 
-
-Step 1: To create Storage Bucket or to Upload files in bucket click on red coloured "+" icon on right side below corner.
+Step 1: To create Storage Bucket click on red coloured "+" icon on right side below corner.
 
 ![](_images/console-option.PNG)
 
@@ -34,15 +44,15 @@ You will see all the options as below:
 
 ![](_images/option.PNG)
 
-### Create Storage Bucket
-
-Step 2: Click on "Create bucket" option obtained.
+Step 2: Click on "Create bucket" option.
 
 ![](_images/create-bucket.PNG)
 
-Step 3: Give a name to the storage bucket and just hit enter. Storage bucket will be created and can be seen on left side of the console as shown in below snapshot:
+Step 3: Give a name to the storage bucket and just hit enter. 
 
 ![](_images/bucket-name.PNG)
+
+Storage bucket will be created and can be seen on left side of the console as shown in below snapshot:
 
 ![](_images/bucket-created.PNG)
 
@@ -58,14 +68,23 @@ You will see below option :
 
 ![](_images/edit-policy-option-read-write.PNG)
 
-Step 6: Provide the name of Bucket Policy and choose policy as "Read Only" or "Write Only" or "Read and Write" and click on "Add" Button.
+Step 6: Provide the "prefix" of Bucket Policy and choose policy as "Read Only" or "Write Only" or "Read and Write" and click on "Add" Button.
 
 ![](_images/bucket-policy-edit.PNG)
 
- Your bucket policy will be added.
+Your bucket policy will be added.
+
+![](_images/edit-policy-option-read-write.PNG)
+
+Once bucket policy is added you can see the "Remove" button on created Bucket Policy using which we can remove the Bucket Policy.
+
+Also a new column of Bucket Policy is also added if we want to add a new Bucket Policy.
+
+![](_images/remove-bucket-policy.PNG)
 
 Step 7: If you want to delete the bucket, click on "Delete" option as shown in below snapshot:
 
+![](_images/delete-bucket.png)
 
 ### Upload Files into storage bucket
 

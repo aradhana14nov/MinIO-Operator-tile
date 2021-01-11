@@ -25,10 +25,12 @@ You will see the MinIO's Login page as below :
  Note: above accesskey and secretkey we have used while creating secret.
 
 
-- Once logged-in you will see MinIO's console as below:
+- Once logged-in, you will see MinIO's console as below:
 
 
 ![](_images/logged-in-console.PNG)
+
+
 
 The MinIO Console provides a graphical user interface (GUI) for interacting with MinIO Tenants.
 Administrators of MinIO Tenants can perform a variety of tasks through the Console, including user creation, policy configuration, and bucket replication. 
@@ -36,7 +38,7 @@ Administrators of MinIO Tenants can perform a variety of tasks through the Conso
 
 ### Create Storage Bucket 
 
-Step 1: To create Storage Bucket click on red coloured "+" icon on right side below corner.
+Step 1: To create Storage Bucket, click on red coloured "+" icon on right side below corner.
 
 ![](_images/console-option.png)
 
@@ -62,21 +64,21 @@ Step 4: Click on the option ":" provided to the bucket as shown in the below sna
 
 You will see options :"Edit policy" and "Delete" 
 
+![](_images/edit-policy.png)
+
 Step 5: To edit policy of the Bucket, click on "Edit policy"
 
 You will see below option :
 
-![](_images/edit-policy-option-read-write.png)
+![](_images/edit-policy-fields.PNG)
 
 Step 6: Provide the "prefix" of Bucket Policy and choose policy as "Read Only" or "Write Only" or "Read and Write" and click on "Add" Button.
-
-![](_images/bucket-policy-edit.png)
 
 Your bucket policy will be added.
 
 ![](_images/edit-policy-option-read-write.png)
 
-Once bucket policy is added you can see the "Remove" button on created Bucket Policy using which we can remove the Bucket Policy.
+Once bucket policy is added, you can see the "Remove" button on created Bucket Policy using which we can remove the Bucket Policy.
 
 Also a new column of Bucket Policy is also added.
 
@@ -84,7 +86,7 @@ Also a new column of Bucket Policy is also added.
 
 Step 7: If you want to delete the bucket, click on "Delete" option as shown in below snapshot:
 
-![](_images/delete-bucket.png)
+![](_images/delete-bucket.PNG)
 
 ### Upload Files into storage bucket
 

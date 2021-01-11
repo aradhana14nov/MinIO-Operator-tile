@@ -96,7 +96,7 @@ Step 9: Click on to "Upload file" option as shown in below snapshot.
 
 ![](_images/upload-file.png)
 
-Open window to select the file will be opened.
+"Open" window to select the file will be opened.
 
 Step 10: Select the file you want to upload in the Bucket.Once file is selected and clicked on "Open",you will see "File uploaded Successfully" message.
 

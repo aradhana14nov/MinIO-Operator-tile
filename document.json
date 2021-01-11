@@ -1,6 +1,6 @@
 {
   "name": "MinIO Operator",
-  "description": MinIO Operator",
+  "description": "MinIO Operator",
   "logo": "_images/SalesStack.png",
   "has_supporting_content": true,
   "stack_id": "minio-operator",

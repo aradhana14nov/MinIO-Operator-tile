@@ -15,6 +15,18 @@
          "duration":"15 min",
          "tutorial_name":"minio-instance-creation-tutorial.md",
          "title":"MinIO Instance Creation tutorial"
+      },
+      {
+         "description":"How to access MinIO's console",
+         "duration":"15 min",
+         "tutorial_name":"minio-console.md",
+         "title":"Access MinIO's Console"
+      },
+      {
+         "description":"How to Connect to MinIO's Pod to access files uploaded in MinIO's bucket",
+         "duration":"15 min",
+         "tutorial_name":"connect-to-minio-pod-to-access-uploaded-files.md",
+         "title":"Connect to MinIO's Pod"
       }
       
    ],

@@ -5,7 +5,7 @@ description: This tutorial explains how create Instances for your MinIO Operator
 
 ### Create MinIO Instance and Sevice to access MinIO Server
 
-Execute below command to create a secret with proper accesskey and secretkey:
+Execute below command to create a secret with proper access-key and secret-key:
 
 ```execute
 kubectl create secret generic minio-creds-secret --from-literal=accesskey=admin --from-literal=secretkey=secret@123456 --namespace my-minio-operator

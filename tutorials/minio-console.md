@@ -86,7 +86,7 @@ Also a new column of Bucket Policy is also added.
 
 Step 7: If you want to delete the bucket, click on "Delete" option as shown in below snapshot:
 
-![](_images/delete-bucket.PNG)
+![](_images/delete-bucket.png)
 
 ### Upload Files into storage bucket
 

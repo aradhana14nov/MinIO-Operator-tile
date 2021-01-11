@@ -1,19 +1,18 @@
 <h1 align="center">MinIO Operator</h1>
 
-![Logo](_images/logo.PNG)
+![Logo](_images/logo.png)
 
 MinIO is a high performance distributed object storage server, designed for large-scale private cloud infrastructure. MinIO is designed in a cloud-native manner to scale sustainably in multi-tenant environments. Orchestration platforms like Kubernetes provide perfect launchpad for MinIO to scale. MinIO is Open Source, Enterprise-Grade, Amazon S3 Compatible Object Storage. 
 MinIO-Operator brings native MinIO, MCS, and KES support to Kubernetes. 
 
 ### Key features :
 
-SQL Select
-Encryption & WORM
-Multi-Site Federation
-Lambda Compute
-Integration with IAM Tools
-Erasure Code & Bitrot Protection
-About this Operator
+- SQL Select
+- Encryption & WORM
+- Multi-Site Federation
+- Lambda Compute
+- Integration with IAM Tools
+- Erasure Code & Bitrot Protection
 
 
 
@@ -33,7 +32,7 @@ About this Operator
 ### Architecture
 The following diagram describes the architecture of a MinIO deployed into Kubernetes:
 
-!(_images/minio-on-kubernetes.PNG)
+!(_images/minio-on-kubernetes.png)
 
 
 ### Objective of tutorial

@@ -43,8 +43,7 @@ In this tutorial,we are going to cover following topics:
 2. Create MinIO Instance and verify status of pods and services.
 3. Access MinIO Console and create storage bucket and upload files.
 4. Connect to the pods and access files stored inside storage bucket.
-5. Monitoring MiniO using prometheus.
-6. Cleanup Operator.
+5. Cleanup Operator.
 
 
 

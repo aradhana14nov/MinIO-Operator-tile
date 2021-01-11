@@ -20,13 +20,13 @@ minio-operator.v3.2.0   MinIO Operator   3.2.0     minio-operator.v3.0.2   Succe
 
 **Please wait till `PHASE` status will be `Succeeded` and then proceed further.**
 
-After the installation is successful , you can check your operator pods by executing the below command.
+After the installation is successful , you can check your operator's pod by executing the below command.
 
 ```execute
 kubectl get pods -n my-minio-operator
 ```
 
-You should see a pod starting with 'minio-operator' with Ready value '1/1' and Status 'Running' like the output below.
+You should see a pod starting with 'minio-operator' with Ready value '1/1' and Status 'Running' like the output as below.
 
 ```output
 NAME                                READY   STATUS    RESTARTS   AGE

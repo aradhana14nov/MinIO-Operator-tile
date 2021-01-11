@@ -123,7 +123,25 @@ Output:
 service/minio-service created
 ```
 
-Access MinIO's dashboard with below url :
+### Access MinIO's dashboard with below url :
+
+Execute below command to get the NodePort service:
+
+```execute
+kubectl get svc -n my-minio-operator
+```
+
+Output will be similar to below output:
+
+```
+NAME            TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+minio-hl-svc    ClusterIP   None            <none>        9000/TCP         84m
+minio-service   NodePort    10.107.138.82   <none>        9000:30205/TCP   81m
+```
+
+The Port value for "minio-service" of Type NodePort is : 30205
+
+Using this port to access MinIO's Pod using below URL: 
 
 Click on http://##DNS.ip##:30205 to access MinIO's dashboard from your browser.
 

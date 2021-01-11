@@ -33,13 +33,8 @@ Step 2: Connect to the MinIO's pod  :
  ``` 
 
 Step 3: Execute below command to check uploaded file inside "test" bucket which reside on containers volume mountpath: "/export". 
-You can check mountpath of the pod's container using below command :
 
-```
-kubectl describe pod minio-0 -n my-minio-operator
-```
-
-```
+```execute
 cd /export/test
 ls
 ```
@@ -47,9 +42,9 @@ ls
 Output:
 
 ```
-/export/test # ls
 index.html
 ```
 
+The same uploaded data file can be access by another applications deployed on same cluster.
 
 

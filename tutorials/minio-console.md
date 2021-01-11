@@ -7,12 +7,12 @@ http://##DNS.ip##:30205
 
 You will see the MinIO's Login page as below :
 
- ![](_images/login-console.PNG)
+![](_images/login-console.PNG)
 
 Once logged-in into this you will see MinIO's console as below:
 
 
- ![](_images/logged-in-console.PNG)
+![](_images/logged-in-console.PNG)
 
 The MinIO Console provides a graphical user interface (GUI) for interacting with MinIO Tenants.
 Administrators of MinIO Tenants can perform a variety of tasks through the Console, including user creation, policy configuration, and bucket replication. 
@@ -23,7 +23,7 @@ Administrators of MinIO Tenants can perform a variety of tasks through the Conso
 
 Step 1: To create Storage Bucket or to Upload files in bucket click on red coloured "+" icon on right side below corner.
 
- ![](_images/console-option.PNG)
+![](_images/console-option.PNG)
 
 You will see all the options as below:
 
@@ -45,7 +45,7 @@ Step 4: Click on the option ":" provided to the bucket as shown in the below sna
 
 ![](_images/edit-policy-option.PNG)
 
-- You will see options :"Edit policy" and "Delete" 
+You will see options :"Edit policy" and "Delete" 
 
 Step 5: To edit policy of the Bucket, click on "Edit policy"
 
@@ -59,22 +59,22 @@ Step 6: Provide the name of Bucket Policy and choose policy as "Read Only" or "W
 
  Your bucket policy will be added.
 
-- If you want to delete the bucket, click on "Delete" option as shown in below snapshot:
+Step 7: If you want to delete the bucket, click on "Delete" option as shown in below snapshot:
 
 
 ### Upload Files into storage bucket
 
-Step 6: To Upload files in bucket click on red coloured "+" option on right side below corner.
+Step 8: To Upload files in bucket click on red coloured "+" option on right side below corner.
 
-Step 7: Click on to "Upload file" option as shown in below snapshot.
+Step 9: Click on to "Upload file" option as shown in below snapshot.
 
 ![](_images/upload-file.PNG)
 
-Step 8: Browse the file you want to upload in the Bucket.Once file is selected and added it will see "File uploaded Successfully" message.
+Step 10: Browse the file you want to upload in the Bucket.Once file is selected and added it will see "File uploaded Successfully" message.
 
 ![](_images/upload-file-successful.PNG)
 
-Step 9: If you want to delete the uploaded file, you can click on the option shown in below snapshot and click on Delete.
+Step 11: If you want to delete the uploaded file, you can click on the option shown in below snapshot and click on Delete.
 
 ![](_images/delete-uploaded-file.PNG)
 

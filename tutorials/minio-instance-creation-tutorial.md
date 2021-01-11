@@ -141,7 +141,7 @@ minio-service   NodePort    10.107.138.82   <none>        9000:30205/TCP   81m
 
 The Port value for "minio-service" of Type NodePort is : 30205
 
-Using this port to access MinIO's Pod using below URL: 
+We will use this port to access MinIO's Pod using below URL: 
 
 Click on http://##DNS.ip##:30205 to access MinIO's dashboard from your browser.
 

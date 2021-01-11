@@ -17,7 +17,7 @@ Output:
 secret/minio-creds-secret created
 ```
 
-### Create below yaml file to create MinIO Operator Instance:
+### Create below yaml file to create MinIO Operator Instance
 
 ```execute
 cat <<'EOF' > MinioInstance.yaml
@@ -123,7 +123,7 @@ Output:
 service/minio-service created
 ```
 
-### Access MinIO's dashboard with below url :
+### Access MinIO's dashboard
 
 Execute below command to get the NodePort service:
 

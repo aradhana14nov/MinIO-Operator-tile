@@ -32,10 +32,15 @@ Step 2: Connect to the MinIO's pod  :
  kubectl exec -it <podname> -n my-minio-operator -- sh
  ``` 
 
-Step 3: Execute below command to check uploaded file inside test bucket which reside on containers volume mountpath: "/data"
+Step 3: Execute below command to check uploaded file inside "test" bucket which reside on containers volume mountpath: "/export". 
+You can check mountpath of the pod's container using below command :
 
 ```
-cd /data/test
+kubectl describe pod minio-0 -n my-minio-operator
+```
+
+```
+cd /export/test
 ls
 ```
 

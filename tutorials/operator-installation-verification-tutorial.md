@@ -5,7 +5,7 @@ description: This tutorial explains how to verify that the MinIO Operator instal
 
 ### Check the MinIO Operator
 
-After installation, verify that your operator got successfully installed by executing the below command.
+After installation, verify that operator is installed successfully by executing the below command.
 
 ```execute
 kubectl get csv -n my-minio-operator

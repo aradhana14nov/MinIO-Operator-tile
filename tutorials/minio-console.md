@@ -1,4 +1,4 @@
-### MinIO Console
+### Access MinIO's Console
 
 To login into MinIO's console click on below URL :
 

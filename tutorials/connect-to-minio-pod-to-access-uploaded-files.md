@@ -29,7 +29,7 @@ Step 2: Connect to the MinIO's pod  :
  Add the MinIO's podname in the below command and copy it to the terminal to execute:
  
  ```copycommand
- kubectl exec -it <podname> bash -n my-minio-operator
+ kubectl exec -it <podname> -n my-minio-operator -- sh
  ``` 
 
 Step 3: Execute below command to check uploaded file inside test bucket which reside on containers volume mountpath: "/data"

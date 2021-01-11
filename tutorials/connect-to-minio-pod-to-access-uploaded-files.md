@@ -16,7 +16,7 @@ You well see output similar to this:
 
 Step 2: Connect to the MinIO's pod  :
 
- Add the MinIO's podname in the command and copy below command to the terminal:
+ Add the MinIO's podname in the below command and copy it to the terminal to execute:
  
  ```
  kubectl exec -it <podname> bash -n my-minio-operator

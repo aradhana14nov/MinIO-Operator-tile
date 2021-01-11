@@ -1,3 +1,8 @@
+---
+title: Access MinIO Console
+description: This tutorial explains how to access minios console.
+---
+
 ### Access MinIO's Console
 
 To login into MinIO's console click on below URL :

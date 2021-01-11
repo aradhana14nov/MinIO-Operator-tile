@@ -47,6 +47,7 @@ ls
 Output:
 
 ```
+/export/test # ls
 index.html
 ```
 

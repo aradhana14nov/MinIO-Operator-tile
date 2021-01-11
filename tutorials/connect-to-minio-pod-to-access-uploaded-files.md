@@ -1,4 +1,3 @@
-
 ---
 title: Connect to the MinIO Pod and access bucket uploaded files tutorial
 description: This tutorial explains how to connect to the MinIO Pod and access bucket uploaded files.

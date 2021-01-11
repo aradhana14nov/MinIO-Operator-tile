@@ -16,15 +16,19 @@ kubectl get pods -n my-minio-operator
 You well see output similar to this:
 
 ```
-
-
+NAME                              READY   STATUS    RESTARTS   AGE
+minio-0                           1/1     Running   0          115s
+minio-1                           1/1     Running   0          115s
+minio-2                           1/1     Running   0          115s
+minio-3                           1/1     Running   0          115s
+minio-operator-6cccf9f587-72xcp   1/1     Running   0          17m
 ```
 
 Step 2: Connect to the MinIO's pod  :
 
  Add the MinIO's podname in the below command and copy it to the terminal to execute:
  
- ```
+ ```copycommand
  kubectl exec -it <podname> bash -n my-minio-operator
  ``` 
 
@@ -38,6 +42,7 @@ ls
 Output:
 
 ```
+index.html
 ```
 
 

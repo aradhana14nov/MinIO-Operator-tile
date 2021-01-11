@@ -47,4 +47,10 @@ index.html
 
 The same uploaded data file can be access by another applications deployed on same cluster.
 
+Step 4: Exit from the pod.
+
+```
+exit
+```
+
 

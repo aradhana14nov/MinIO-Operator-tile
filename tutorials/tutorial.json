@@ -27,6 +27,12 @@
          "duration":"15 min",
          "tutorial_name":"connect-to-minio-pod-to-access-uploaded-files.md",
          "title":"Connect to MinIO's Pod"
+      },
+      {
+         "description":"How to cleanup MinIO's Operator",
+         "duration":"10 min",
+         "tutorial_name":"cleanup.md",
+         "title":"Cleanup Tutorial"
       }
       
    ],

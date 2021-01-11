@@ -38,7 +38,7 @@ Administrators of MinIO Tenants can perform a variety of tasks through the Conso
 
 Step 1: To create Storage Bucket click on red coloured "+" icon on right side below corner.
 
-![](_images/console-option.PNG)
+![](_images/console-option.png)
 
 You will see all the options as below:
 
@@ -46,7 +46,7 @@ You will see all the options as below:
 
 Step 2: Click on "Create bucket" option.
 
-![](_images/create-bucket.PNG)
+![](_images/create-bucket.png)
 
 Step 3: Give a name to the storage bucket and just hit enter. 
 
@@ -54,11 +54,11 @@ Step 3: Give a name to the storage bucket and just hit enter.
 
 Storage bucket will be created and can be seen on left side of the console as shown in below snapshot:
 
-![](_images/bucket-created.PNG)
+![](_images/bucket-created.png)
 
 Step 4: Click on the option ":" provided to the bucket as shown in the below snapshot.
 
-![](_images/edit-policy-option.PNG)
+![](_images/edit-policy-option.png)
 
 You will see options :"Edit policy" and "Delete" 
 
@@ -66,15 +66,15 @@ Step 5: To edit policy of the Bucket, click on "Edit policy"
 
 You will see below option :
 
-![](_images/edit-policy-option-read-write.PNG)
+![](_images/edit-policy-option-read-write.png)
 
 Step 6: Provide the "prefix" of Bucket Policy and choose policy as "Read Only" or "Write Only" or "Read and Write" and click on "Add" Button.
 
-![](_images/bucket-policy-edit.PNG)
+![](_images/bucket-policy-edit.png)
 
 Your bucket policy will be added.
 
-![](_images/edit-policy-option-read-write.PNG)
+![](_images/edit-policy-option-read-write.png)
 
 Once bucket policy is added you can see the "Remove" button on created Bucket Policy using which we can remove the Bucket Policy.
 
@@ -92,17 +92,17 @@ Step 8: To Upload files in bucket click on red coloured "+" option on right side
 
 Step 9: Click on to "Upload file" option as shown in below snapshot.
 
-![](_images/upload-file.PNG)
+![](_images/upload-file.png)
 
 Open window to select the file will be opened.
 
 Step 10: Select the file you want to upload in the Bucket.Once file is selected and clicked on "Open",you will see "File uploaded Successfully" message.
 
-![](_images/upload-file-successful.PNG)
+![](_images/upload-file-successful.png)
 
 Step 11: If you want to delete the uploaded file, you can click on the option shown in below snapshot and click on Delete.
 
-![](_images/delete-uploaded-file.PNG)
+![](_images/delete-uploaded-file.png)
 
 
 

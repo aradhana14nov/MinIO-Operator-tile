@@ -1,0 +1,1 @@
+### Connect with the pod and access files uploaded into MinIO Storage Bucket 
